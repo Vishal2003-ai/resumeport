@@ -114,24 +114,7 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* Other Sections → already responsive */}
-      {/* Just added px-4 so content doesn’t touch edges on mobile */}
-
-      <section id="about" className="py-16 max-w-4xl text-center px-4">
-        <motion.h3
-          className="text-2xl md:text-3xl font-bold mb-6"
-          initial={{ x: -200, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.8 }}
-        >
-          About Me
-        </motion.h3>
-        <p className="text-gray-400 leading-relaxed">
-          I’m Vishal Kushwah, a passionate Full-Stack Developer with expertise
-          in Django, MERN Stack, React, and TailwindCSS. I bring problem-solving
-          and collaboration skills to cross-functional environments.
-        </p>
-      </section>
+      
 
       <Separator className="my-8 w-3/4 bg-gray-800" />
 
